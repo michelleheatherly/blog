@@ -7,8 +7,8 @@ email: michelleheatherly218@outlook.com
 description: Full Stack Software Engineer
 github_username: michelleheatherly
 url: "https://michelleheatherly.github.io"
-baseurl: "/mm-blog"
-repository: "michelleheatherly/mm-blog"
+baseurl: "/blog"
+repository: "michelleheatherly/blog"
 teaser: "/assets/images/placeholder-pic.jpg"
 logo: "/assets/images/transparent-cat.png"
 masthead_title: " "
