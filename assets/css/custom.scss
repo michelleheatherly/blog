@@ -1,0 +1,58 @@
+---
+---
+
+/* ========== Language Switcher (Navbar) ========== */
+
+.lang-switch-item {
+  position: relative;
+  z-index: 1000;
+}
+
+.lang-switch-form { margin: 0; padding-top: 0 !important; padding-bottom: 0 !important; padding-left: 0 !important; background: none !important;}
+.lang-switch-form > * { margin: 0; }
+
+.lang-switch__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.9rem;
+  height: 1.9rem;
+  padding: 0 0.55rem;
+  border-radius: 999px;
+  border: 1px solid rgba(129,76, 214, 0.45);
+  background-color: transparent;
+  color: inherit;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.7rem;
+  font-weight: 600;
+  cursor: pointer;
+  opacity: 0.75;
+  backdrop-filter: blur(6px);
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, opacity 0.2s ease, transform 0.2s ease;
+}
+
+.lang-switch__button:hover,
+.lang-switch__button:focus {
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: currentColor;
+  outline: none;
+}
+
+.lang-switch__button:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+/* ========== Fix clipping/stacking in Minimal Mistakes masthead ========== */
+
+/* Put the masthead above page content and let children overflow */
+.masthead { position: relative; z-index: 500; }
+.masthead__inner-wrap { overflow: visible; }
+
+/* Greedy Nav clips by default; allow overflow and reset stacking */
+.greedy-nav { overflow: visible; position: relative; z-index: auto; }
+
+/* Keep switcher <li> from shrinking oddly in the flex menu */
+.greedy-nav .visible-links .lang-switch-item { flex: 0 0 auto; }

@@ -1,5 +1,4 @@
 # Site settings
-locale: en-US
 title: Michelle Heatherly
 title_separator: "|"
 subtitle: "Cats, Coffee, and Code"
@@ -25,8 +24,6 @@ excerpt_separator: "\n\n"
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
 timezone: America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
@@ -46,12 +43,29 @@ include:
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-polyglot
+
+readme_index:
+  enabled: false
+
+# Polyglot
+languages: ["en", "de"]
+default_lang: "en"
+exclude_from_localization:
+  - "assets"
+  - "favicon.ico"
+  - "README.md"
+parallel_localization: true
+lang_from_path: true
+lang_vars:
+  - "locale"
+locale: "en"
 
 author:
   name: "Michelle Heatherly"
@@ -92,6 +106,15 @@ defaults:
       comments: false
       share: true
       related: true
+      lang: en          # Polyglot/page lang
+      locale: en        # Minimal Mistakes UI locale
+      date_format: "%B %d, %Y"
+  - scope:
+      path: "de"        # everything under /de
+    values:
+      lang: de
+      locale: de
+      date_format: "%d.%m.%Y"
   # _pages
   - scope:
       path: "_pages"
