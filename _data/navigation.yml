@@ -1,27 +1,27 @@
 en:
   main:
     - title: "Home"
-      url: https://michelle-heatherly.com
-      external: true
+      url: /
     - title: "About"
       url: /about/
-    - title: "Blog"
-      url: /
     - title: "Categories"
       url: /categories/
     - title: "Tags"
       url: /tags/
+    - title: "Website"
+      url: https://michelle-heatherly.com
+      external: true 
 
 de:
   main:
     - title: "Start"
-      url: https://michelle-heatherly.com
-      external: true
+      url: /
     - title: "Über"
       url: /about/
-    - title: "Blog"
-      url: /
     - title: "Kategorien"
       url: /categories/
     - title: "Tags"
       url: /tags/
+    - title: Webseite
+      url: https://michelle-heatherly.com
+      external: true
