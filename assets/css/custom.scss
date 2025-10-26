@@ -50,6 +50,16 @@
 .masthead__inner-wrap { overflow: visible; }
 .greedy-nav { overflow: visible; position: relative; }
 .greedy-nav .visible-links .lang-switch-item { flex: 0 0 auto; padding-right: 1em; }
+.greedy-nav .hidden-links .lang-switch-item {
+  width: 100%;
+  padding-top: 1em;
+  padding-right: 0;
+  text-align: center; /* keep the pill centered when it drops into the menu */
+}
+.greedy-nav .hidden-links .lang-switch {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* Always-visible utilities beside the nav toggle */
 .greedy-nav .always-visible {
