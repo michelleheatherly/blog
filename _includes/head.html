@@ -28,14 +28,13 @@
 <link rel="stylesheet" href="{{ '/assets/css/main-light.css' | relative_url }}" id="theme_source_2">
 <script>
   let theme = sessionStorage.getItem('theme');
-  node1 = document.getElementById('theme_source');
-  node2 = document.getElementById('theme_source_2');
+  let node1 = document.getElementById('theme_source');
+  let node2 = document.getElementById('theme_source_2');
   // if light mode is selected
   if (theme === "light") {
     sessionStorage.setItem('theme', 'light');
     node1.setAttribute('rel', 'stylesheet alternate');
-  }
-  else {
+  } else {
     // default to dark mode
     sessionStorage.setItem('theme', 'dark');
     node2.setAttribute('rel', 'stylesheet alternate');
