@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://michelleheatherly.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://michelleheatherly.github.io/blog/" rel="alternate" type="text/html" /><updated>2025-10-26T22:45:54-04:00</updated><id>https://michelleheatherly.github.io/blog/feed.xml</id><title type="html">Michelle Heatherly</title><subtitle>Full Stack Software Engineer</subtitle><author><name>Michelle Heatherly</name><email>michelleheatherly218@outlook.com</email></author><entry xml:lang="de"><title type="html">Rückblick auf die Neujahrsziele</title><link href="https://michelleheatherly.github.io/blog/programmierung/R%C3%BCckblick-Auf-Die-Neujahrsziele/" rel="alternate" type="text/html" title="Rückblick auf die Neujahrsziele" /><published>2023-04-06T00:00:00-04:00</published><updated>2023-04-06T00:00:00-04:00</updated><id>https://michelleheatherly.github.io/blog/programmierung/R%C3%BCckblick-Auf-Die-Neujahrsziele</id><content type="html" xml:base="https://michelleheatherly.github.io/blog/programmierung/R%C3%BCckblick-Auf-Die-Neujahrsziele/"><![CDATA[<p>Es sind ein paar Monate vergangen, seit ich hier ein Update zu den beruflichen und programmierbezogenen Zielen gegeben habe, die ich mir für das neue Jahr gesetzt hatte.</p>
+
+<p>Mein übergeordnetes Ziel für das Jahr war es, <em>jeden</em> Tag zu programmieren. Das ist ein ziemlich großes Ziel – und das Leben kann manchmal schnell dazwischenkommen und perfekte Serien unterbrechen. Auch wenn ich dieses Ziel vielleicht nicht vollständig erreicht habe, programmiere ich an den meisten Tagen. Oft ist es besser, auf Fortschritt und Wachstum hinzuarbeiten, statt auf <em>Perfektion</em>.</p>
+
+<h4 id="neujahrsziele">Neujahrsziele</h4>
+
+<p>Zur kurzen Erinnerung – das waren die drei weiteren Ziele, die ich mir gesetzt hatte:</p>
+
+<ol>
+  <li>Eine persönliche Blog-Seite erstellen</li>
+  <li>Eine verbesserte Version meiner Lebenslauf-Webseite entwickeln, inklusive Hell- und Dunkelmodus</li>
+  <li>Die Zertifizierungen „Azure Data Fundamentals“ und „Azure AI Fundamentals“ erwerben</li>
+</ol>
+
+<h4 id="eine-persönliche-blog-seite-erstellen">Eine persönliche Blog-Seite erstellen</h4>
+
+<p>Wenn du diesen Beitrag liest, habe ich eine persönliche Blog-Seite erstellt!</p>
+
+<p>Es gibt unendlich viele Möglichkeiten, wenn man einen persönlichen Blog aufbaut – angefangen bei Programmiersprachen, über Hosting-Plattformen bis hin zu zusätzlichen Tools. Schon früh im Entwicklungsprozess habe ich entschieden, dass ich meinen Blog mit einem Static Site Generator erstellen und über GitHub Pages hosten möchte.</p>
+
+<p>Man könnte sich fragen, warum ich mich für einen Static-Site-Generator entschieden habe. Ich habe nichts gegen dynamische Webseiten, aber mir gefällt, wie schnell statische Seiten laden und wie wenig laufende Wartung sie benötigen. Meine <a href="https://michelle-heatherly.com">persönliche Webseite</a> hoste ich bereits über GitHub Pages. Mit der einfachen und kostenlosen Hosting-Option für statische Webseiten war die Wahl des Hostings schnell getroffen.</p>
+
+<p>Manchmal ist es einfach schön, die Dinge <em>einfach</em> zu halten.</p>
+
+<p>Ich habe einige verschiedene Bibliotheken ausprobiert, um mir den Einstieg in die Erstellung einer statischen Blog-Seite auf GitHub Pages zu erleichtern.</p>
+
+<p>Die folgenden Bibliotheken beschreibe ich im Detail weiter unten:</p>
+
+<ol>
+  <li><a href="https://jekyllrb.com/">Jekyll</a></li>
+  <li><a href="https://github.com/barryclark/jekyll-now">Jekyll Now</a></li>
+  <li><a href="https://mmistakes.github.io/minimal-mistakes/">Minimal Mistakes</a></li>
+</ol>
+
+<h5 id="jekyll">Jekyll</h5>
+
+<p>Jekyll ist ein Open-Source-Tool, das auf der Programmiersprache Ruby basiert und mit HTML- und Markdown-Dateien arbeitet. Es eignet sich hervorragend zur Erstellung statischer Webseiten, was bedeutet, dass die Dateien als vorgerenderte HTML-Dateien ohne dynamisch generierte Inhalte oder zusätzliche Back-End-Dienste &amp; Datenbanken bereitgestellt werden.<br />
+Einige Vorteile von Jekyll sind die vollständige (und <strong>kostenlose</strong>) Integration mit GitHub Pages, sowie die Tatsache, dass Jekyll-Webseiten oft schneller, sicherer und leichter zu warten sind als Content-Management-Systeme (CMS).</p>
+
+<h5 id="jekyll-now">Jekyll Now</h5>
+
+<p><a href="https://www.jekyllnow.com/">Jekyll Now</a>, entwickelt von Barry Clark, ermöglicht es Entwickler*innen, ihre Jekyll-Webseite in wenigen Minuten zum Laufen zu bringen, ohne Ruby und andere Abhängigkeiten installieren zu müssen.</p>
+
+<p>Wie der Name schon andeutet, kann man damit sehr schnell eine neue statische Blog-Seite erstellen. Das mitgelieferte Design ist minimalistisch, schlicht und schön, sodass man seine Energie auf das Schreiben von Blogbeiträgen und Inhalten konzentrieren kann.</p>
+
+<p>Mein Testlauf mit einem Fork des Jekyll-Now-Repositories ist <a href="https://michelle-heatherly.com/jekyll-now/">hier</a> zu finden.</p>
+
+<h5 id="minimal-mistakes">Minimal Mistakes</h5>
+
+<p>Nachdem ich mit Jekyll Now experimentiert hatte – und obwohl mir die Einfachheit gefiel – wollte ich eine Bibliothek verwenden, die mehr Funktionen direkt integriert. Nach einiger Recherche stieß ich auf <a href="https://mmistakes.github.io/minimal-mistakes/">Minimal Mistakes</a>, ein flexibles, responsives und anpassbares Jekyll-Theme, das von Michael Rose entwickelt wurde.</p>
+
+<p>Im Gegensatz zu Jekyll Now erfordert dieses Theme, dass Ruby installiert und konfiguriert ist, sowie die Nutzung von Ruby Gems für Installation und Bundling des Themes.</p>
+
+<p>Ruby war auf meinem Computer bereits von früheren Projekten installiert. Wer es noch nicht hat, findet auf der <a href="https://www.ruby-lang.org/en/documentation/installation/">Ruby-Webseite</a> mehrere Möglichkeiten zur Installation auf verschiedenen Betriebssystemen. Die Dokumentation zum Einstieg und zur Konfiguration von Minimal Mistakes ist ebenfalls sehr umfangreich.</p>
+
+<p>Ich liebe, wie anpassbar und erweiterbar dieses Theme ist und wie es gleichzeitig hilft, den Erstellungsprozess zu beschleunigen. Für <a href="https://michelle-heatherly.com/blog/">diesen</a> Blog, den du gerade liest, habe ich Minimal Mistakes verwendet.</p>
+
+<p>Wie viele persönliche Programmierprojekte ist auch dieser Blog noch eine laufende Arbeit. Wahrscheinlich werde ich weiterhin andere Tools erkunden, um meine Blog-Webseiten weiterzuentwickeln. Einige der Tools, die mich künftig interessieren, sind <a href="https://gohugo.io/">Hugo</a> und <a href="https://www.11ty.dev/">11ty</a>.</p>
+
+<h4 id="persönliche-webseite-mit-hell--und-dunkelmodus-verbessern">Persönliche Webseite mit Hell- und Dunkelmodus verbessern</h4>
+
+<p>In den letzten Monaten habe ich viele Updates an meiner persönlichen Webseite vorgenommen.</p>
+
+<p>Einige der Änderungen sind:</p>
+
+<ol>
+  <li>Farbverlauf-Text für die Navigationsleiste, Überschriften und andere Stellen zur zusätzlichen Betonung.</li>
+  <li>Einige Bilder wurden durch aktuellere Screenshots ersetzt oder solche, die besser zum Gesamtdesign der Webseite passen.</li>
+  <li>Das Video wurde durch einen Farbverlaufs-Hintergrund mit dynamischer, animierter Textdarstellung des Grace-Hopper-Zitats ersetzt.</li>
+  <li>Den Karten im Portfolio-Bereich wurden Badges hinzugefügt, die anzeigen, welche Sprachen und Tools bei der Entwicklung verwendet wurden.</li>
+</ol>
+
+<p>Allerdings habe ich bisher keinen Hell- und Dunkelmodus zu meiner persönlichen Webseite hinzugefügt.</p>
+
+<p>Es gibt ein bekanntes Sprichwort im kreativen Schreiben (ich glaube, es wird William Faulkner zugeschrieben), das besagt, man solle seine „<em>Lieblinge töten</em>“. Das heißt, man sollte sich nicht zu sehr an etwas klammern. Manchmal ist es besser, liebgewonnene kreative Werke zu überarbeiten oder loszulassen.</p>
+
+<p>Ich genieße das dunkle, cyber/galaxy-inspirierte Design meiner Webseite derzeit sehr. Ich stimme aber zu, dass es sinnvoll sein könnte, irgendwann eine Webseite zu erstellen, die über eine Hell-/Dunkelmodus-Umschaltung verfügt, um meine Fähigkeiten als Softwareentwicklerin klarer und professioneller zu präsentieren. Ich bin mir nur noch nicht sicher, wie ein neues Design aussehen soll.</p>
+
+<p>Ich experimentiere bereits mit einigen neuen Layouts und Technologien, mit denen die Webseite entwickelt wird. Vermutlich wird im Laufe des Jahres ein neues Design entstehen, das meinen Vorstellungen entspricht. Bleibt dran!</p>
+
+<p>Allerdings habe ich für andere Projekte Hell-/Dunkelmodi entwickelt.</p>
+
+<p>Zum Beispiel:</p>
+
+<p>Ich habe dieser <a href="https://michelle-heatherly.com/blog/">Jekyll-Blog-Seite</a> einen Umschalter für Hell-/Dunkelmodus hinzugefügt. Du kannst zwischen den Modi wechseln, indem du auf das Sonne-/Mond-Symbol in der Navigationsleiste klickst. Das Standard-Theme ist dunkel (bzw. das „neon skin“ von Minimal Mistakes), da es zum <em>ästhetischen</em> Stil meiner <a href="https://michelle-heatherly.com">Webseite</a> passt.</p>
+
+<p>Außerdem habe ich ein kleines Beispielprojekt mit Angular, TypeScript und Angular Material erstellt, bei dem man ebenfalls zwischen Hell- und Dunkelmodus wechseln kann. Eine Vorschau findest du <a href="https://michelle-heatherly.com/angular-material-color-toggle/">hier</a>.<br />
+Der Code für alle diese Projekte ist auf meiner <a href="https://github.com/michelleheatherly">GitHub</a>-Seite einsehbar.</p>
+
+<p>Erwähnenswert ist auch, dass die aktuelle (Alpha-)Version von <a href="https://getbootstrap.com/docs/5.3/customize/color-modes/#dark-mode">Bootstrap 5</a> eine integrierte Funktion für Hell-/Dunkelmodus bietet. Man muss zwar weiterhin einen Button hinzufügen und etwas zusätzlichen Code schreiben, um zwischen den Themes zu wechseln, aber es ist eine großartige Option, wenn man Bootstrap ohnehin bereits verwendet.</p>
+
+<h4 id="azure-data-fundamentals-und-azure-ai-fundamentals-zertifizierungen-erwerben">Azure Data Fundamentals und Azure AI Fundamentals Zertifizierungen erwerben</h4>
+
+<p>Seit Ende Februar 2023 besitze ich drei Azure-Zertifizierungen: Azure Fundamentals, Azure Data Fundamentals und Azure AI Fundamentals.</p>
+
+<p>Wer sich für Azure-Zertifizierungen interessiert, kann regelmäßig an <a href="https://www.microsoft.com/en-us/trainingdays">virtuellen Trainingstagen</a> von Microsoft teilnehmen. Einige dieser Trainings, darunter Azure Fundamentals, Data Fundamentals und AI Fundamentals, beinhalten sogar kostenlose Prüfungsgutscheine. Diese Grundlagenzertifizierungen sind ideal für alle, die neu im Cloud-Computing oder in Azure sind und ihr Wissen erweitern und validieren möchten.</p>
+
+<p>Auch wenn du bereits Erfahrung mit Azure oder anderen Cloud-Plattformen wie AWS oder GCP hast, sind diese Trainings eine gute Möglichkeit, neue Dienste und Features kennenzulernen. Ich kann nur empfehlen, das <strong>kostenlose</strong> Training und die Gutscheine zu nutzen, wenn du mehr über Azure und seine Möglichkeiten erfahren möchtest.<br />
+Zur Prüfungsvorbereitung habe ich außerdem <a href="https://learn.microsoft.com/en-us/training/azure/">Microsoft Learn for Azure</a> verwendet – eine <strong>kostenlose</strong> Lernplattform mit hervorragenden Lernmaterialien, Übungen und kurzen Tests, um dein Wissen zu prüfen oder neue Fähigkeiten zu erlernen.</p>
+
+<p>Da man aktuell kaum an OpenAI und ChatGPT vorbeikommt, hat mich das Lernen für die Azure-AI-Fundamentals-Prüfung sehr inspiriert, tiefer in die Themen Künstliche Intelligenz und Maschinelles Lernen einzutauchen. Die Prüfung behandelt Themen wie die KI-/ML-Dienste auf Azure, Natural Language Processing, Computer Vision und auch ethische Fragen und Verantwortlichkeiten im Umgang mit KI/ML.</p>
+
+<p>Da viele Unternehmen zunehmend KI-Technologien integrieren oder eigene Lösungen entwickeln, steigt die Nachfrage nach Wissen und Fachkenntnissen in diesem Bereich. Auch wenn diese Zertifizierung nur eine grundlegende ist, empfand ich das Lernmaterial als großartige Einführung in die Nutzung von Azure-Diensten für KI/ML.</p>
+
+<p>Zwei interessante KI-Tools, die ich kürzlich entdeckt habe, sind:</p>
+
+<ol>
+  <li><a href="https://www.sudowrite.com/">sudowrite</a></li>
+  <li><a href="https://writesonic.com/">Writesonic</a></li>
+</ol>
+
+<h5 id="sudowrite">sudowrite</h5>
+
+<p>Sudowrite ist eine Anwendung, die KI/ML nutzt, um Autor*innen kreativ zu unterstützen. Einige der Funktionen sind Vorschläge für alternative Wörter oder Sätze, Charakterentwicklung, Brainstorming, das Generieren von Gedichten und vieles mehr. Besonders spannend finde ich den „Canvas Mode“.</p>
+
+<h5 id="writesonic">Writesonic</h5>
+
+<p>Writesonic ist eine weitere KI-gestützte Schreibanwendung, die beim Erstellen von Texten hilft – sei es für Blogbeiträge, Beschreibungen, das Umformulieren von Absätzen, Ideengenerierung, Keywords und vieles mehr. Außerdem gibt es eine neue Funktion namens <em>Photosonic</em>, mit der man Kunst generieren kann.</p>
+
+<p>Beide Tools bieten eine <strong>kostenlose</strong> Testversion an. Probiert sie ruhig aus! Wie bei vielen anderen KI-/ML-Tools variieren die Ergebnisse stark. Es braucht oft etwas Feingefühl und Experimentieren mit den Parametern, um die besten Resultate zu erzielen.</p>
+
+<h4 id="nächste-schritte">Nächste Schritte</h4>
+
+<p>Wie viele andere Entwickler*innen habe auch ich eine fortlaufende Liste mit Projekten und Ideen.</p>
+
+<p>Kurzfristig möchte ich mich auf diese drei Dinge konzentrieren:</p>
+
+<ol>
+  <li>Eine Linktree-inspirierte Webseite erstellen</li>
+  <li>Eine Blog-Webseite für meine Yoga-Angebote aufbauen</li>
+  <li>Eine Full-Stack-CRUD-Anwendung entwickeln</li>
+</ol>
+
+<p>Danke fürs Lesen! Ich hoffe, dass diese Gedanken und Ressourcen dich bei deinen eigenen Programmierprojekten inspirieren.</p>
+
+<p>Ich werde weiterhin an mir selbst arbeiten und bald ein weiteres Update zu meinem Fortschritt bei diesen drei Zielen geben.</p>
+
+<p>Ich hoffe, deine eigenen Ziele laufen gut!</p>]]></content><author><name>Michelle Heatherly</name><email>michelleheatherly218@outlook.com</email></author><category term="Programmierung" /><category term="Ziele" /><category term="Neues Jahr" /><summary type="html"><![CDATA[Es sind ein paar Monate vergangen, seit ich hier ein Update zu den beruflichen und programmierbezogenen Zielen gegeben habe, die ich mir für das neue Jahr gesetzt hatte.]]></summary></entry><entry xml:lang="en"><title type="html">Following Up On Goals From The New Year</title><link href="https://michelleheatherly.github.io/blog/programming/Following-Up-On-Goals/" rel="alternate" type="text/html" title="Following Up On Goals From The New Year" /><published>2023-04-06T00:00:00-04:00</published><updated>2023-04-06T00:00:00-04:00</updated><id>https://michelleheatherly.github.io/blog/programming/Following-Up-On-Goals</id><content type="html" xml:base="https://michelleheatherly.github.io/blog/programming/Following-Up-On-Goals/"><![CDATA[<p>It’s been a few months since I have checked in here with the professional and programming goals I set for the New Year.</p>
+
+<p>My overarching goal for the year was to program <em>every</em> day. That’s a really big goal, and life can happen quickly and throw wrenches into achieving perfect streaks. While I may not have achieved this goal, I have been programming most days. It’s often better to aim for progress and growth, rather than <em>perfection</em>.</p>
+
+<h4 id="new-years-goals">New Year’s Goals</h4>
+
+<p>As a quick recap, here are the other 3 goals I set out for myself:</p>
+
+<ol>
+  <li>Create a personal blog site</li>
+  <li>Create an improved version of my resume site, including light &amp; dark modes</li>
+  <li>Obtain Azure Data Fundamentals and Azure AI Fundamentals certifications</li>
+</ol>
+
+<h4 id="create-a-personal-blog">Create a Personal Blog</h4>
+
+<p>If you are reading this post, I created a personal blog!</p>
+
+<p>There are infinite possibilities when creating a personal blog, including programming languages, hosting platforms, and additional tools. I decided early on in the development process, that I wanted to create a blog using a static site generator and host with GitHub Pages.</p>
+
+<p>One may ask, why I choose to go the route of using a static site generator? Nothing against dynamic sites, but I personally like how quickly static sites load and how they tend to need less on-going maintenance. I already host my <a href="https://michelle-heatherly.com">personal website</a> on GitHub Pages. With the easy, free static website hosting already integrated with GitHub Pages, it made is easy to choose for the hosting platform.</p>
+
+<p>Sometimes it is nice to just keep things <em>simple</em>.</p>
+
+<p>I tried out a few different libraries to help me get started with creating a static blog website on GitHub Pages.</p>
+
+<p>I’ll describe the following libraries in detail more below:</p>
+
+<ol>
+  <li><a href="https://jekyllrb.com/">Jekyll</a></li>
+  <li><a href="https://github.com/barryclark/jekyll-now">Jekyll Now</a></li>
+  <li><a href="https://mmistakes.github.io/minimal-mistakes/">Minimal Mistakes</a></li>
+</ol>
+
+<h5 id="jekyll">Jekyll</h5>
+
+<p>Jekyll is an open-source tool, based on the Ruby programming language along with HTML &amp; markdown files, that can be used for creating static websites, which means the files are pre-rendered HTML without any dynamically generated content or having to maintain additional back-end services &amp; databases. Some of the benefits of using Jekyll is that it is fully integrated (for <strong>free</strong>) with GitHub Pages, and tends to be faster, more secure, and easier to maintain than working with a CMS (Content Management System).</p>
+
+<h5 id="jekyll-now">Jekyll Now</h5>
+
+<p><a href="https://www.jekyllnow.com/">Jekyll Now</a> developed by Barry Clark allows developers to get their jekyll site up and running in a few minutes, without needing install Ruby and other dependencies.</p>
+
+<p>Just as it describes itself, one can create a new static blog site quickly. The out-of-the-box design is minimalistic, nice and simple, allowing for one to focus more energy on creating blog posts and content instead.</p>
+
+<p>My test of forking and using the jekyll now repo can be found <a href="https://michelle-heatherly.com/jekyll-now/">here</a>.</p>
+
+<h5 id="minimal-mistakes">Minimal Mistakes</h5>
+
+<p>After experimenting with Jekyll Now, though I enjoyed the simplicity, I wanted to use a library that had more features integrated into it out-of-the-box. After some research, I came across <a href="https://mmistakes.github.io/minimal-mistakes/">minimal mistakes</a>, a more flexible, responsive, and customizable jekyll theme created by Michael Rose.</p>
+
+<p>Unlike Jekyll Now, this theme does require having Ruby installed and configured, as well as using Ruby gems for installing and bundling the theme.</p>
+
+<p>I already had Ruby installed on my computer from some previous programming projects. If one does not have it already installed, the <a href="https://www.ruby-lang.org/en/documentation/installation/">Ruby website</a> lists several different ways to install on your operating system. The documentation on how to get started and configure minimal mistakes is also quite extensive.</p>
+
+<p>I love how customizable and extendable this theme is, while still helping jump-start the creation process. I used minimal mistakes for creating <a href="https://michelle-heatherly.com/blog/">this</a> blog you are currently reading.</p>
+
+<p>Like many personal programming projects, though, I would say this blog is still a work in progress. Most likely, I will continue to explore other tools in developing my blog websites. Some of the tools I am interested in using in future are <a href="https://gohugo.io/">Hugo</a> and <a href="https://www.11ty.dev/">11ty</a>.</p>
+
+<h4 id="improve-personal-website-with-light-and-dark-mode">Improve Personal Website with Light and Dark Mode</h4>
+
+<p>I have added a lot of updates to my personal website in the past few months.</p>
+
+<p>A few of the updates are:</p>
+
+<ol>
+  <li>Gradient text for the navigation bar brand, headers, and other places for additional emphasis.</li>
+  <li>Swapped out some of the images to more recent screenshots or ones I felt incorporated better with the overall look and feel of the website.</li>
+  <li>Replaced the video to instead be a gradient background with more dynamic, animated text for the Grace Hopper quote.</li>
+  <li>Added badges to the cards in the portfolio section to display what languages &amp; tools were used in development.</li>
+</ol>
+
+<p>However, I have not added a light and dark mode to my personal website.</p>
+
+<p>I know there is an adage in creative writing (I believe attributed to William Faulkner) that says you should “<em>kill your darlings</em>”. Meaning, don’t get too attached to something. Sometimes it is better to revise or eliminate those creative works that we cherish.</p>
+
+<p>I really am enjoying the dark mode, cyber/galaxy theme I have created for my personal website at the moment. I agree that creating a very different website that incorporates a dark/light theme toggle as a feature, might flow better and ultimately convey my skill set as a software engineer in a more concise and professional way. I just am not confident in a new design for my personal website yet.</p>
+
+<p>I have started experimenting with some other designs for the website, as well as the languages &amp; tools it’s programmed with. Probably sometime later this year, I will have a new design that meets this criteria and I feel enthusiastic about. Stay tuned.</p>
+
+<p>However, I have been developing dark/light modes for other things.</p>
+
+<p>For example:</p>
+
+<p>I added a dark/light mode toggle to <a href="https://michelle-heatherly.com/blog/">this</a> jekyll blog site. You can toggle between light &amp; dark modes by clicking the sun/moon button in the navigation toolbar. The default theme is dark (or the neon skin using minimal mistakes), since it matches the main <em>aesthetic</em> of my personal <a href="https://michelle-heatherly.com">website</a>.</p>
+
+<p>I also created a small example Angular Typescript &amp; Angular Material example where you can toggle between dark/light modes. You can preview that by clicking <a href="https://michelle-heatherly.com/angular-material-color-toggle/">here</a>. Additionally, the code for any of these projects are visible on my <a href="https://github.com/michelleheatherly">GitHub</a> page.</p>
+
+<p>It is also worth noting that the latest (alpha) release of <a href="https://getbootstrap.com/docs/5.3/customize/color-modes/#dark-mode">Bootstrap 5</a> has dark/light mode toggle functionality built into it. You would still need to create a separate button and write a little bit of additional code to toggle between themes, but this is a also a great option for integrating theme switching if you are already utilizing the Bootstrap framework for styling your website.</p>
+
+<h4 id="become-certified-in-azure-data-fundamentals-and-azure-ai-fundamentals">Become Certified in Azure Data Fundamentals and Azure AI Fundamentals</h4>
+
+<p>As of the end of February 2023, I hold 3 Azure Certifications: Azure Fundamentals, Azure Data Fundamentals, and Azure AI Fundamentals.</p>
+
+<p>If anyone is interested in getting certified in Azure, Microsoft periodically holds <a href="https://www.microsoft.com/en-us/trainingdays">virtual training days</a>. Several of these training days, like Azure Fundamentals, Azure Data Fundamentals, and Azure AI Fundamentals, come with a free exam voucher for their corresponding certification. These fundamental certifications are great for those who may be new to cloud computing, or using Azure, and are interested in expanding and validating their cloud computing knowledge.</p>
+
+<p>Even if you already have some experience with Azure, or other cloud platforms like Amazon Web Services (AWS) and Google Cloud Platform (GCP), it’s a also a great way to learn about any new services and features available in Azure. I highly recommend taking advantage of the <strong>free</strong> training &amp; voucher, if you are interested in learning more about Azure and its offerings. In terms of preparing for these exams, I also utilized <a href="https://learn.microsoft.com/en-us/training/azure/">Microsoft Learn for Azure</a>, their <strong>free</strong> learning platform that has lots of great study materials, exercises, and short quizzes for evaluating your readiness or learning a new skill using the Azure platform.</p>
+
+<p>With OpenAI and ChatGPT being <em>impossible</em> to escape in the latest news, studying for the Azure AI Fundamentals exam inspired a lot of interest in me to further explore the possibilities of Artificial Intelligence and Machine Learning. The Azure AI Fundamentals exam coverts topics such as AI/ML services available on Azure, natural language processing, computer vision, and even touches on some of the ethics and responsibilities of using AI/ML.</p>
+
+<p>With many businesses continuing to adapt, integrate, or create their own AI technologies, there’s quite a bit of demand for knowledge and expertise in this area. While this is just a foundational certification, I felt like the study material for the exam could serve as a nice introduction to how you can use Azure services for AI/ML.</p>
+
+<p>Two cool AI tools I recently discovered are:</p>
+
+<ol>
+  <li><a href="https://www.sudowrite.com/">sudowrite</a></li>
+  <li><a href="https://writesonic.com/">Writesonic</a></li>
+</ol>
+
+<h5 id="sudowrite">sudowrite</h5>
+
+<p>Sudowrite is an application that uses AI/ML to help writers in creative ways. Some of the features are suggesting alternative words, sentences, character development, brainstorming, generating poems, and more. They also have a canvas mode feature that is really interesting.</p>
+
+<h5 id="writesonic">Writesonic</h5>
+
+<p>Writesonic is another AI-powered writing application that helps with generating text, whether that be for blog posts, descriptions, rephrasing paragraphs, outlines, generating ideas, keywords, and much more. They even have a new feature, Photosonic, for generating Art.</p>
+
+<p>Both of these tools have a <strong>free</strong> trial/tier. Feel free to try them out! Like with many other AI/ML tools, results may vary. I find that it takes quite a bit of nuance and experimentation with what parameters you give these tools in order to get the best outputs.</p>
+
+<h4 id="next-steps">Next Steps</h4>
+
+<p>Like many other developers, I have an ongoing list of projects and ideas.</p>
+
+<p>In the short-term, I will set my intentions on accomplishing these 3 things:</p>
+
+<ol>
+  <li>Create a link-tree inspired website</li>
+  <li>Create a blog website for my yoga offerings</li>
+  <li>Create a full-stack CRUD application</li>
+</ol>
+
+<p>Thanks for reading, and I hope these ramblings and resources can be of some inspiration to you in your latest programming projects.</p>
+
+<p>I’ll continue to keep myself accountable and will check in again soon with progress in accomplishing these next 3 goals.</p>
+
+<p>Hope your goals are going well!</p>]]></content><author><name>Michelle Heatherly</name><email>michelleheatherly218@outlook.com</email></author><category term="Programming" /><category term="Goals" /><category term="New Year" /><summary type="html"><![CDATA[It’s been a few months since I have checked in here with the professional and programming goals I set for the New Year.]]></summary></entry><entry xml:lang="de"><title type="html">Frohes Neues Jahr!</title><link href="https://michelleheatherly.github.io/blog/programmierung/Frohes-Neues-Jahr/" rel="alternate" type="text/html" title="Frohes Neues Jahr!" /><published>2023-01-08T00:00:00-05:00</published><updated>2023-01-08T00:00:00-05:00</updated><id>https://michelleheatherly.github.io/blog/programmierung/Frohes-Neues-Jahr</id><content type="html" xml:base="https://michelleheatherly.github.io/blog/programmierung/Frohes-Neues-Jahr/"><![CDATA[<p>Ich wünsche allen, die das hier lesen, dass euch das Jahr 2023 freundlich behandelt und euer Code reibungslos läuft.</p>
+
+<p>Wie viele andere mit Neujahrsvorsätzen ist eines meiner Ziele für dieses Jahr, an meiner persönlichen technischen Entwicklung zu arbeiten, indem ich jeden Tag programmiere.</p>
+
+<h4 id="neues-jahr-bessere-programmierung">Neues Jahr, bessere Programmierung</h4>
+
+<p>Zusätzlich zum täglichen Programmieren sind dies einige meiner weiteren Ziele für das Jahr:</p>
+
+<ol>
+  <li>Eine persönliche Blog-Seite erstellen</li>
+  <li>Eine verbesserte Version meiner Lebenslauf-Website entwickeln, inklusive Hell- und Dunkelmodus</li>
+  <li>Die Zertifizierungen „Azure Data Fundamentals“ und „Azure AI Fundamentals“ erwerben</li>
+</ol>
+
+<h4 id="jekyll-und-github-pages">Jekyll und GitHub Pages</h4>
+
+<p>Für Ziel Nr. 1 – was wäre eine bessere Möglichkeit, sowohl eine neue Fähigkeit zu erlernen als auch einen persönlichen Blog zu erstellen, als die Nutzung der Jekyll-Bibliothek zu lernen?</p>
+
+<p>Um den Prozess der Erstellung eines statischen Blogs mit Jekyll und GitHub Pages schnell zu starten, habe ich dieses Repository <a href="https://github.com/barryclark/jekyll-now">Jekyll Now Repository</a> geforkt und Barry Clarks Tutorial <a href="https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/">hier</a> befolgt.</p>]]></content><author><name>Michelle Heatherly</name><email>michelleheatherly218@outlook.com</email></author><category term="Programmierung" /><category term="Ziele" /><category term="Neues Jahr" /><summary type="html"><![CDATA[Ich wünsche allen, die das hier lesen, dass euch das Jahr 2023 freundlich behandelt und euer Code reibungslos läuft.]]></summary></entry><entry xml:lang="en"><title type="html">Happy New Year!</title><link href="https://michelleheatherly.github.io/blog/programming/Happy-New-Year/" rel="alternate" type="text/html" title="Happy New Year!" /><published>2023-01-08T00:00:00-05:00</published><updated>2023-01-08T00:00:00-05:00</updated><id>https://michelleheatherly.github.io/blog/programming/Happy-New-Year</id><content type="html" xml:base="https://michelleheatherly.github.io/blog/programming/Happy-New-Year/"><![CDATA[<p>My hope for anyone whom may be reading this, that 2023 treats you kindly and your code runs smoothly.</p>
+
+<p>Like many others with new years resolutions, one of my goals for this year is to work on my own personal technical development by programming each day.</p>
+
+<h4 id="new-year-better-programming">New Year, Better Programming</h4>
+
+<p>In addition to programming every day, the following are a few of my other goals for the year:</p>
+
+<ol>
+  <li>Create a personal blog site</li>
+  <li>Create an improved version of my resume site, including light &amp; dark modes</li>
+  <li>Obtain Azure Data Fundamentals and Azure AI Fundamentals certifications</li>
+</ol>
+
+<h4 id="jekyll-and-github-pages">Jekyll and GitHub Pages</h4>
+
+<p>For goal #1, what better way to both learn a new skill and create a personal blog, than by learning how to use the jekyll library?</p>
+
+<p>To quick start the process of creating a static blog using jekyll and GitHub Pages, I forked this repository <a href="https://github.com/barryclark/jekyll-now">Jekyll Now repository</a> and followed Barry Clark’s tutorial <a href="https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/">here</a>.</p>]]></content><author><name>Michelle Heatherly</name><email>michelleheatherly218@outlook.com</email></author><category term="Programming" /><category term="Goals" /><category term="New Year" /><summary type="html"><![CDATA[My hope for anyone whom may be reading this, that 2023 treats you kindly and your code runs smoothly.]]></summary></entry></feed>

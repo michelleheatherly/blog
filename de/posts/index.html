@@ -1,0 +1,535 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.27.3 by Michael Rose
+  Copyright 2013-2025 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="de" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Beiträge nach Jahr | Michelle Heatherly</title>
+<meta name="description" content="Full Stack Software Engineer">
+
+
+  <meta name="author" content="Michelle Heatherly">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="de">
+<meta property="og:site_name" content="Michelle Heatherly">
+<meta property="og:title" content="Beiträge nach Jahr">
+<meta property="og:url" content="https://michelleheatherly.github.io/blog/posts/">
+
+
+  <meta property="og:description" content="Full Stack Software Engineer">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="https://michelleheatherly.github.io/blog/de/posts/">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+<link href="/blog/de/feed.xml"
+  type="application/atom+xml" rel="alternate" title="Michelle Heatherly Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- Language Switcher Styles -->
+<link rel="stylesheet" href="/blog/assets/css/custom.css">
+
+
+<!-- Dark mode style -->
+<link rel="stylesheet" href="/blog/assets/css/main.css" id="theme_source">
+
+<!-- Light mode style -->
+<!-- https://github.com/mmistakes/minimal-mistakes/discussions/2033 -->
+
+<meta name="color-scheme" content="light dark">
+<link rel="stylesheet" href="/blog/assets/css/main-light.css" id="theme_source_2">
+<script>
+  let theme = sessionStorage.getItem('theme');
+  let node1 = document.getElementById('theme_source');
+  let node2 = document.getElementById('theme_source_2');
+  // if light mode is selected
+  if (theme === "light") {
+    sessionStorage.setItem('theme', 'light');
+    node1.setAttribute('rel', 'stylesheet alternate');
+  } else {
+    // default to dark mode
+    sessionStorage.setItem('theme', 'dark');
+    node2.setAttribute('rel', 'stylesheet alternate');
+  }
+</script>
+
+
+<!-- For all browsers -->
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style"
+  onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+</noscript>
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/blog/assets/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/blog/assets/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/blog/assets/images/favicon-16x16.png">
+<link rel="manifest" href="/blog/de/site.webmanifest">
+<link rel="mask-icon" href="/blog/assets/images/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+  </head>
+
+  <body class="layout--posts" dir="ltr">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Zur Hauptnavigation springen</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Zum Inhalt springen</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Zum Footer springen</a></li>
+  </ul>
+</nav>
+
+    
+
+
+
+
+
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-logo" href="/blog/de/">
+          <img src="/blog/assets/images/transparent-cat.png" alt=" ">
+        </a>
+        
+        <a class="site-title" href="/blog/de/">
+           
+          <span class="site-subtitle">Cats, Coffee, and Code</span>
+        </a>
+
+        <ul class="visible-links"><li class="masthead__menu-item">
+            <a href="/blog/de/" >
+              Start
+            </a>
+          </li><li class="masthead__menu-item">
+            <a href="/blog/de/about/" >
+              Über
+            </a>
+          </li><li class="masthead__menu-item">
+            <a href="/blog/de/posts/" >
+              Beiträge
+            </a>
+          </li><li class="masthead__menu-item">
+            <a href="/blog/de/categories/" >
+              Kategorien
+            </a>
+          </li><li class="masthead__menu-item">
+            <a href="/blog/de/tags/" >
+              Tags
+            </a>
+          </li><li class="masthead__menu-item">
+            <a href="https://michelle-heatherly.com" >
+              Webseite
+            </a>
+          </li><li class="masthead__menu-item lang-switch-item">
+  <form action="/blog/" method="get" class="lang-switch lang-switch-form">
+    <button type="submit"
+            class="lang-switch__button"
+            aria-label="Sprachauswahl: EN">
+      de
+    </button>
+  </form>
+</li>
+
+        </ul>
+
+        
+
+        
+        <i class="fas fa-fw fa-sun" id="colorMode" aria-hidden="true" style="cursor: pointer;"
+          onclick="node1=document.getElementById('theme_source');node2=document.getElementById('theme_source_2');node3=document.getElementById('colorMode');if(node1.getAttribute('rel')=='stylesheet'){node1.setAttribute('rel', 'stylesheet alternate'); node2.setAttribute('rel', 'stylesheet');sessionStorage.setItem('theme', 'light');node3.classList.remove('fa-sun');node3.classList.add('fa-moon');}else{node2.setAttribute('rel', 'stylesheet alternate'); node1.setAttribute('rel', 'stylesheet');sessionStorage.setItem('theme', 'dark');node3.classList.remove('fa-moon');node3.classList.add('fa-sun');} return false;"></i>
+        
+
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">
+            Menü ein-/ausschalten
+          </span>
+          <div class="navicon"></div>
+        </button>
+
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+<script>
+  // make sure that button is appropriately updated when pages change
+  if (theme === "light") {
+    const node3 = document.getElementById('colorMode');
+    if (node3) { node3.classList.remove('fa-sun'); node3.classList.add('fa-moon'); }
+  }
+</script>
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/blog/de/" itemprop="item"><span itemprop="name">Start</span></a>
+
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        <li class="current" lang="de">Beiträge nach Jahr</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="https://michelleheatherly.github.io/blog/de/">
+        <img src="/blog/assets/images/bio.png" alt="Michelle Heatherly" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="https://michelleheatherly.github.io/blog/de/" itemprop="url">Michelle Heatherly</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Full-Stack Software Engineer</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Folgen</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+        
+          
+            <li><a href="https://michelle-heatherly.com" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Website</span></a></li>
+          
+        
+          
+            <li><a href="https://www.linkedin.com/in/rachael-michelle-heatherly/" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+          
+        
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:michelleheatherly218@outlook.com" rel="me" class="u-email">
+            <meta itemprop="email" content="michelleheatherly218@outlook.com" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">E-Mail</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <div class="archive">
+    
+      <h1 id="page-title" class="page__title" lang="de">Beiträge nach Jahr</h1>
+    
+    
+
+
+
+
+
+
+<ul class="taxonomy__index">
+  
+  
+    <li>
+      <a href="#2023">
+        <strong>2023</strong>
+        <span class="taxonomy__count">2</span>
+      </a>
+    </li>
+  
+</ul>
+
+
+
+
+
+  <section id="2023" class="taxonomy__section">
+    <h2 class="archive__subtitle">2023</h2>
+    <div class="entries-list">
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork" lang="de">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/de/programmierung/R%C3%BCckblick-Auf-Die-Neujahrsziele/" rel="permalink">Rückblick auf die Neujahrsziele
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          7 Minuten zum Lesen
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Es sind ein paar Monate vergangen, seit ich hier ein Update zu den beruflichen und programmierbezogenen Zielen gegeben habe, die ich mir für das neue Jahr ge...</p>
+  </article>
+</div>
+
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork" lang="de">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/de/programmierung/Frohes-Neues-Jahr/" rel="permalink">Frohes Neues Jahr!
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          weniger als 1 Minuten zum Lesen
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Ich wünsche allen, die das hier lesen, dass euch das Jahr 2023 freundlich behandelt und euer Code reibungslos läuft.
+
+</p>
+  </article>
+</div>
+
+      
+    </div>
+    <a href="#page-title" class="back-to-top">
+      Back to Top &uarr;
+    </a>
+  </section>
+
+  </div>
+</div>
+
+      
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Folgen:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://github.com/michelleheatherly" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://gitlab.com/michelleheatherly" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-gitlab" aria-hidden="true"></i> GitLab</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/in/rachael-michelle-heatherly/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+    
+
+    
+      <li><a href="/blog/de/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+
+<div class="page__footer-copyright">&copy; 2025 <a href="https://michelleheatherly.github.io">Michelle Heatherly</a>. Möglich durch <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/blog/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
