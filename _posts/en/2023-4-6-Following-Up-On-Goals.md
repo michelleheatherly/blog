@@ -8,7 +8,6 @@ header:
 categories:
   - Programming
 tags:
-  - English
   - Goals
   - New Year
 ---

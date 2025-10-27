@@ -1,0 +1,20 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+{% assign current_lang = page.lang | default: site.active_lang | default: site.locale %}
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+
+{% for category in site.categories %}
+  {% assign cat_name  = category[0] %}
+  {% assign cat_posts = category[1] | where: "lang", current_lang %}
+
+  {% if cat_posts and cat_posts != empty %}
+    <h2 id="{{ cat_name | slugify: 'latin' }}" class="archive__subtitle">{{ cat_name }}</h2>
+    <div class="entries-{{ entries_layout }}">
+      {% include documents-collection.html entries=cat_posts type=entries_layout %}
+    </div>
+  {% endif %}
+{% endfor %}

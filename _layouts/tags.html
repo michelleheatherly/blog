@@ -1,0 +1,20 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+{% assign current_lang = page.lang | default: site.active_lang | default: site.locale %}
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+
+{% for tag in site.tags %}
+  {% assign tag_name  = tag[0] %}
+  {% assign tag_posts = tag[1] | where: "lang", current_lang %}
+
+  {% if tag_posts and tag_posts != empty %}
+    <h2 id="{{ tag_name | slugify: 'latin' }}" class="archive__subtitle">{{ tag_name }}</h2>
+    <div class="entries-{{ entries_layout }}">
+      {% include documents-collection.html entries=tag_posts type=entries_layout %}
+    </div>
+  {% endif %}
+{% endfor %}

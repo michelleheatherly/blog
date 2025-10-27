@@ -8,7 +8,6 @@ header:
 categories:
   - Programmierung
 tags:
-  - Deutsch
   - Ziele
   - Neues Jahr
 ---
