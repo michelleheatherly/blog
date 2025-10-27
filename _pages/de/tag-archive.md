@@ -1,10 +1,10 @@
 ---
-layout: home
+title: "Beiträge nach Tag"
+layout: tags
+permalink: /tags/
 author_profile: true
-title: "Blog"
 lang: de
 locale: de
-permalink: /
 pagination:
   enabled: true
   per_page: 5

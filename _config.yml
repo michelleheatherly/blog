@@ -95,9 +95,9 @@ footer:
       url: "https://www.linkedin.com/in/rachael-michelle-heatherly/"
 
 defaults:
-  # _posts
+  # EN posts
   - scope:
-      path: ""
+      path: "_posts/en"
       type: posts
     values:
       layout: single
@@ -106,16 +106,24 @@ defaults:
       comments: false
       share: true
       related: true
-      lang: en          # Polyglot/page lang
-      locale: en        # Minimal Mistakes UI locale
+      lang: en
+      locale: en
       date_format: "%B %d, %Y"
+  # DE posts
   - scope:
-      path: "de"        # everything under /de
+      path: "_posts/de"
+      type: posts
     values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
       lang: de
       locale: de
       date_format: "%d.%m.%Y"
-  # _pages
+  # Pages
   - scope:
       path: "_pages"
       type: pages

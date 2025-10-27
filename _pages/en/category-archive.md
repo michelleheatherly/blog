@@ -1,10 +1,10 @@
 ---
-layout: home
+title: "Posts by Category"
+layout: categories
+permalink: /categories/
 author_profile: true
-title: "Blog"
 lang: en
 locale: en
-permalink: /
 pagination:
   enabled: true
   per_page: 5

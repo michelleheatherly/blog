@@ -1,18 +1,16 @@
 ---
 layout: single
 title: Following Up On Goals From The New Year
+lang: en
+locale: en
 header:
   image: /assets/images/laptop-and-coffee.jpg
 categories:
   - Programming
 tags:
-  - goals
-  - programming
-  - new year
-  - jekyll
-  - azure
-  - github
-  - github pages
+  - English
+  - Goals
+  - New Year
 ---
 
 It's been a few months since I have checked in here with the professional and programming goals I set for the New Year.

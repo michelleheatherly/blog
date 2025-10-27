@@ -4,6 +4,8 @@ en:
       url: /
     - title: "About"
       url: /about/
+    - title: "Posts"
+      url: /posts/
     - title: "Categories"
       url: /categories/
     - title: "Tags"
@@ -18,6 +20,8 @@ de:
       url: /
     - title: "Über"
       url: /about/
+    - title: "Beiträge"
+      url: /posts/
     - title: "Kategorien"
       url: /categories/
     - title: "Tags"

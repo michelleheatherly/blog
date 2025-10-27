@@ -1,6 +1,8 @@
 ---
 permalink: /about/
-title: "About"
+title: "About me"
+lang: en
+locale: en
 ---
 
 Hi there! I am Michelle Heatherly.
