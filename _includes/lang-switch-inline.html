@@ -1,6 +1,5 @@
 {%- comment -%}
 Inline language switcher for Minimal Mistakes masthead.
-- Replaces the dropdown with a single toggle button.
 - Button text shows the current locale ("en" / "de") and redirects to the other locale.
 {%- endcomment -%}
 
@@ -33,9 +32,9 @@ Inline language switcher for Minimal Mistakes masthead.
   | default: other_lang | upcase -%}
 
 <li class="masthead__menu-item lang-switch-item">
-  <form action="{{ switch_target | relative_url }}" method="get" class="lang-switch lang-switch-form">
+  <form action="{{ switch_target | relative_url }}" method="get" class="lang-switch-form">
     <button type="submit"
-            class="lang-switch__button"
+            class="lang-switch"
             aria-label="{{ switcher_label }}: {{ other_label }}">
       {{ current_lang | downcase }}
     </button>

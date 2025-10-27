@@ -5,6 +5,13 @@
 
 .lang-switch-item { position: relative; z-index: 1000;}
 
+.lang-switch-form {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+
 .lang-switch {
   display: inline-flex;
   align-items: center;
@@ -16,7 +23,10 @@
   border: 1px solid rgba(129, 76, 214, 0.45);
   background: transparent;
   color: inherit;
-  text-transform: uppercase;
+  appearance: none;
+  -webkit-appearance: none;
+  text-align: center;
+  text-transform: lowercase;
   letter-spacing: 0.08em;
   font-size: 0.7rem;
   font-weight: 600;
@@ -39,12 +49,6 @@
   outline-offset: 2px;
 }
 
-.lang-switch__button {
-  background: none;
-  border: none;
-  color: inherit;
-}
-
 /* Minimal Mistakes masthead overflow fix so the pill isn't clipped */
 .masthead { position: relative; z-index: 500; }
 .masthead__inner-wrap { overflow: visible; }
@@ -53,6 +57,7 @@
 .greedy-nav .hidden-links .lang-switch-item {
   width: 100%;
   padding-top: 1em;
+  padding-bottom: 1em;
   padding-right: 0;
   text-align: center; /* keep the pill centered when it drops into the menu */
 }
@@ -74,4 +79,13 @@
 /* Reset list item spacing inside */
 .greedy-nav .always-visible .masthead__menu-item {
   margin: 0;
+}
+
+/* Theme toggle icon hover affordance */
+#colorMode {
+  transition: color .2s ease-in-out;
+}
+#colorMode:hover,
+#colorMode:focus {
+  color: var(--colorModeHoverColor, #9467dc);
 }

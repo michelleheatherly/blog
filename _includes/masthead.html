@@ -3,6 +3,8 @@
 {% assign nav_root   = site.data.navigation[locale_key] | default: site.data.navigation[site.default_lang] %}
 {% assign links      = nav_root.main %}
 {% assign localized_root = '/' %}
+{% assign localized_l10n = site.data[locale_key].l10n | default: site.data[site.default_lang].l10n %}
+{% assign localized_subtitle = localized_l10n.subtitle | default: site.subtitle %}
 {% unless locale_key == site.default_lang %}
   {% assign localized_root = '/' | append: locale_key | append: '/' %}
 {% endunless %}
@@ -18,7 +20,7 @@
         {% endunless %}
         <a class="site-title" href="{{ localized_root | relative_url }}">
           {{ site.masthead_title | default: site.title }}
-          {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
+          {% if localized_subtitle %}<span class="site-subtitle">{{ localized_subtitle }}</span>{% endif %}
         </a>
 
         <ul class="visible-links">

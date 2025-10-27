@@ -49,7 +49,7 @@ Einige Vorteile von Jekyll sind die vollständige (und **kostenlose**) Integrati
 
 ##### Jekyll Now
 
-[Jekyll Now](https://www.jekyllnow.com/), entwickelt von Barry Clark, ermöglicht es Entwickler*innen, ihre Jekyll-Webseite in wenigen Minuten zum Laufen zu bringen, ohne Ruby und andere Abhängigkeiten installieren zu müssen.
+[Jekyll Now](https://www.jekyllnow.com/), entwickelt von Barry Clark, ermöglicht es Entwicklern, ihre Jekyll-Webseite in wenigen Minuten zum Laufen zu bringen, ohne Ruby und andere Abhängigkeiten installieren zu müssen.
 
 Wie der Name schon andeutet, kann man damit sehr schnell eine neue statische Blog-Seite erstellen. Das mitgelieferte Design ist minimalistisch, schlicht und schön, sodass man seine Energie auf das Schreiben von Blogbeiträgen und Inhalten konzentrieren kann.
 
@@ -117,7 +117,7 @@ Zwei interessante KI-Tools, die ich kürzlich entdeckt habe, sind:
 
 ##### sudowrite
 
-Sudowrite ist eine Anwendung, die KI/ML nutzt, um Autor*innen kreativ zu unterstützen. Einige der Funktionen sind Vorschläge für alternative Wörter oder Sätze, Charakterentwicklung, Brainstorming, das Generieren von Gedichten und vieles mehr. Besonders spannend finde ich den „Canvas Mode“.
+Sudowrite ist eine Anwendung, die KI/ML nutzt, um Autoren kreativ zu unterstützen. Einige der Funktionen sind Vorschläge für alternative Wörter oder Sätze, Charakterentwicklung, Brainstorming, das Generieren von Gedichten und vieles mehr. Besonders spannend finde ich den „Canvas Mode“.
 
 ##### Writesonic
 
@@ -127,7 +127,7 @@ Beide Tools bieten eine **kostenlose** Testversion an. Probiert sie ruhig aus! W
 
 #### Nächste Schritte
 
-Wie viele andere Entwickler*innen habe auch ich eine fortlaufende Liste mit Projekten und Ideen.
+Wie viele andere Entwickler habe auch ich eine fortlaufende Liste mit Projekten und Ideen.
 
 Kurzfristig möchte ich mich auf diese drei Dinge konzentrieren:
 
