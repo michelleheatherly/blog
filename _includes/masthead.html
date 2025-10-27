@@ -1,40 +1,60 @@
 {% capture logo_path %}{{ site.logo }}{% endcapture %}
+{% assign locale_key = site.locale | default: site.active_lang | default: site.default_lang %}
+{% assign nav_root   = site.data.navigation[locale_key] | default: site.data.navigation[site.default_lang] %}
+{% assign links      = nav_root.main %}
+{% assign localized_root = '/' %}
+{% unless locale_key == site.default_lang %}
+  {% assign localized_root = '/' | append: locale_key | append: '/' %}
+{% endunless %}
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         {% unless logo_path == empty %}
-        <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}"
-            alt="{{ site.masthead_title | default: site.title }}"></a>
+        <a class="site-logo" href="{{ localized_root | relative_url }}">
+          <img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}">
+        </a>
         {% endunless %}
-        <a class="site-title" href="{{ '/' | relative_url }}">
+        <a class="site-title" href="{{ localized_root | relative_url }}">
           {{ site.masthead_title | default: site.title }}
           {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
         </a>
+
         <ul class="visible-links">
-          {%- for link in site.data.navigation.main -%}
+          {%- for link in links -%}
           <li class="masthead__menu-item">
-            <a href="{{ link.url | relative_url }}" {% if link.description %} title="{{ link.description }}" {% endif
-              %}>{{ link.title }}</a>
+            <a href="{{ link.url | relative_url }}" {% if link.description %} title="{{ link.description }}" {% endif %}>
+              {{ link.title }}
+            </a>
           </li>
           {%- endfor -%}
+
+          {%- comment -%} language switcher item {%- endcomment -%}
+          {% include lang-switch-inline.html %}
         </ul>
+
         {% if site.search == true %}
         <button class="search__toggle" type="button">
-          <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search"
-            }}</span>
+          <span class="visually-hidden">
+            {{ site.data.ui-text[locale_key].search_label | default: "Toggle search" }}
+          </span>
           <i class="fas fa-search"></i>
         </button>
         {% endif %}
+
         {% if site.minimal_mistakes_skin_light %}
         <i class="fas fa-fw fa-sun" id="colorMode" aria-hidden="true" style="cursor: pointer;"
           onclick="node1=document.getElementById('theme_source');node2=document.getElementById('theme_source_2');node3=document.getElementById('colorMode');if(node1.getAttribute('rel')=='stylesheet'){node1.setAttribute('rel', 'stylesheet alternate'); node2.setAttribute('rel', 'stylesheet');sessionStorage.setItem('theme', 'light');node3.classList.remove('fa-sun');node3.classList.add('fa-moon');}else{node2.setAttribute('rel', 'stylesheet alternate'); node1.setAttribute('rel', 'stylesheet');sessionStorage.setItem('theme', 'dark');node3.classList.remove('fa-moon');node3.classList.add('fa-sun');} return false;"></i>
         {% endif %}
+
         <button class="greedy-nav__toggle hidden" type="button">
-          <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
+          <span class="visually-hidden">
+            {{ site.data.ui-text[locale_key].menu_label | default: "Toggle menu" }}
+          </span>
           <div class="navicon"></div>
         </button>
+
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
@@ -43,8 +63,7 @@
 <script>
   // make sure that button is appropriately updated when pages change
   if (theme === "light") {
-    node3 = document.getElementById('colorMode');
-    node3.classList.remove('fa-sun');
-    node3.classList.add('fa-moon');
+    const node3 = document.getElementById('colorMode');
+    if (node3) { node3.classList.remove('fa-sun'); node3.classList.add('fa-moon'); }
   }
 </script>

@@ -1,0 +1,43 @@
+{%- comment -%}
+Inline language switcher for Minimal Mistakes masthead.
+- Replaces the dropdown with a single toggle button.
+- Button text shows the current locale ("en" / "de") and redirects to the other locale.
+{%- endcomment -%}
+
+{%- assign current_lang = site.active_lang | default: site.locale | default: site.default_lang -%}
+{%- if site.languages and site.languages.size > 0 -%}
+  {%- assign langs = site.languages -%}
+{%- else -%}
+  {%- assign langs = 'en,de' | split: ',' -%}
+{%- endif -%}
+{%- comment -%} determine the alternate locale {%- endcomment -%}
+{%- assign other_lang = '' -%}
+{%- for lang in langs -%}
+  {%- if lang != current_lang and other_lang == '' -%}
+    {%- assign other_lang = lang -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- if other_lang == '' -%}
+  {%- assign other_lang = site.default_lang -%}
+{%- endif -%}
+{%- comment -%} build the target URL for the other locale root {%- endcomment -%}
+{%- if other_lang == site.default_lang -%}
+  {%- assign switch_target = '/' -%}
+{%- else -%}
+  {%- assign switch_target = '/' | append: other_lang | append: '/' -%}
+{%- endif -%}
+
+{%- assign switcher_label = site.data.ui-text[current_lang].lang_switcher_label | default: 'Language' -%}
+{%- assign other_label = site.data[other_lang].l10n.lang_name_short
+  | default: site.data[other_lang].l10n.lang_name
+  | default: other_lang | upcase -%}
+
+<li class="masthead__menu-item lang-switch-item">
+  <form action="{{ switch_target | relative_url }}" method="get" class="lang-switch lang-switch-form">
+    <button type="submit"
+            class="lang-switch__button"
+            aria-label="{{ switcher_label }}: {{ other_label }}">
+      {{ current_lang | downcase }}
+    </button>
+  </form>
+</li>

@@ -1,18 +1,15 @@
 ---
 layout: single
 title: Happy New Year!
+lang: en
+locale: en
 header:
   image: /assets/images/fireworks.jpg
 categories:
   - Programming
 tags:
-  - goals
-  - programming
-  - new year
-  - jekyll
-  - azure
-  - github
-  - github pages
+  - Goals
+  - New Year
 ---
 
 My hope for anyone whom may be reading this, that 2023 treats you kindly and your code runs smoothly.
