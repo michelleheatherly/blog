@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://michelleheatherly.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://michelleheatherly.github.io/blog/" rel="alternate" type="text/html" /><updated>2025-10-26T22:45:54-04:00</updated><id>https://michelleheatherly.github.io/blog/feed.xml</id><title type="html">Michelle Heatherly</title><subtitle>Full Stack Software Engineer</subtitle><author><name>Michelle Heatherly</name><email>michelleheatherly218@outlook.com</email></author><entry xml:lang="de"><title type="html">Rückblick auf die Neujahrsziele</title><link href="https://michelleheatherly.github.io/blog/programmierung/R%C3%BCckblick-Auf-Die-Neujahrsziele/" rel="alternate" type="text/html" title="Rückblick auf die Neujahrsziele" /><published>2023-04-06T00:00:00-04:00</published><updated>2023-04-06T00:00:00-04:00</updated><id>https://michelleheatherly.github.io/blog/programmierung/R%C3%BCckblick-Auf-Die-Neujahrsziele</id><content type="html" xml:base="https://michelleheatherly.github.io/blog/programmierung/R%C3%BCckblick-Auf-Die-Neujahrsziele/"><![CDATA[<p>Es sind ein paar Monate vergangen, seit ich hier ein Update zu den beruflichen und programmierbezogenen Zielen gegeben habe, die ich mir für das neue Jahr gesetzt hatte.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://michelleheatherly.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://michelleheatherly.github.io/blog/" rel="alternate" type="text/html" /><updated>2025-10-27T13:22:30-04:00</updated><id>https://michelleheatherly.github.io/blog/feed.xml</id><title type="html">Michelle Heatherly</title><subtitle>Full-Stack Software Engineer</subtitle><author><name>Michelle Heatherly</name><email>michelleheatherly218@outlook.com</email></author><entry xml:lang="de"><title type="html">Rückblick auf die Neujahrsziele</title><link href="https://michelleheatherly.github.io/blog/programmierung/R%C3%BCckblick-Auf-Die-Neujahrsziele/" rel="alternate" type="text/html" title="Rückblick auf die Neujahrsziele" /><published>2023-04-06T00:00:00-04:00</published><updated>2023-04-06T00:00:00-04:00</updated><id>https://michelleheatherly.github.io/blog/programmierung/R%C3%BCckblick-Auf-Die-Neujahrsziele</id><content type="html" xml:base="https://michelleheatherly.github.io/blog/programmierung/R%C3%BCckblick-Auf-Die-Neujahrsziele/"><![CDATA[<p>Es sind ein paar Monate vergangen, seit ich hier ein Update zu den beruflichen und programmierbezogenen Zielen gegeben habe, die ich mir für das neue Jahr gesetzt hatte.</p>
 
 <p>Mein übergeordnetes Ziel für das Jahr war es, <em>jeden</em> Tag zu programmieren. Das ist ein ziemlich großes Ziel – und das Leben kann manchmal schnell dazwischenkommen und perfekte Serien unterbrechen. Auch wenn ich dieses Ziel vielleicht nicht vollständig erreicht habe, programmiere ich an den meisten Tagen. Oft ist es besser, auf Fortschritt und Wachstum hinzuarbeiten, statt auf <em>Perfektion</em>.</p>
 
@@ -39,7 +39,7 @@ Einige Vorteile von Jekyll sind die vollständige (und <strong>kostenlose</stron
 
 <h5 id="jekyll-now">Jekyll Now</h5>
 
-<p><a href="https://www.jekyllnow.com/">Jekyll Now</a>, entwickelt von Barry Clark, ermöglicht es Entwickler*innen, ihre Jekyll-Webseite in wenigen Minuten zum Laufen zu bringen, ohne Ruby und andere Abhängigkeiten installieren zu müssen.</p>
+<p><a href="https://www.jekyllnow.com/">Jekyll Now</a>, entwickelt von Barry Clark, ermöglicht es Entwicklern, ihre Jekyll-Webseite in wenigen Minuten zum Laufen zu bringen, ohne Ruby und andere Abhängigkeiten installieren zu müssen.</p>
 
 <p>Wie der Name schon andeutet, kann man damit sehr schnell eine neue statische Blog-Seite erstellen. Das mitgelieferte Design ist minimalistisch, schlicht und schön, sodass man seine Energie auf das Schreiben von Blogbeiträgen und Inhalten konzentrieren kann.</p>
 
@@ -111,7 +111,7 @@ Zur Prüfungsvorbereitung habe ich außerdem <a href="https://learn.microsoft.co
 
 <h5 id="sudowrite">sudowrite</h5>
 
-<p>Sudowrite ist eine Anwendung, die KI/ML nutzt, um Autor*innen kreativ zu unterstützen. Einige der Funktionen sind Vorschläge für alternative Wörter oder Sätze, Charakterentwicklung, Brainstorming, das Generieren von Gedichten und vieles mehr. Besonders spannend finde ich den „Canvas Mode“.</p>
+<p>Sudowrite ist eine Anwendung, die KI/ML nutzt, um Autoren kreativ zu unterstützen. Einige der Funktionen sind Vorschläge für alternative Wörter oder Sätze, Charakterentwicklung, Brainstorming, das Generieren von Gedichten und vieles mehr. Besonders spannend finde ich den „Canvas Mode“.</p>
 
 <h5 id="writesonic">Writesonic</h5>
 
@@ -121,7 +121,7 @@ Zur Prüfungsvorbereitung habe ich außerdem <a href="https://learn.microsoft.co
 
 <h4 id="nächste-schritte">Nächste Schritte</h4>
 
-<p>Wie viele andere Entwickler*innen habe auch ich eine fortlaufende Liste mit Projekten und Ideen.</p>
+<p>Wie viele andere Entwickler habe auch ich eine fortlaufende Liste mit Projekten und Ideen.</p>
 
 <p>Kurzfristig möchte ich mich auf diese drei Dinge konzentrieren:</p>
 
