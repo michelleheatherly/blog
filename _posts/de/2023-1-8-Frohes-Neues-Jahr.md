@@ -12,20 +12,20 @@ tags:
   - Neues Jahr
 ---
 
-Ich wünsche allen, die das hier lesen, dass euch das Jahr 2023 freundlich behandelt und euer Code reibungslos läuft.
+Ich wünsche allen, die das hier lesen, dass euch das Jahr 2023 wohlgesinnt ist und euer Code ohne Probleme läuft.
 
-Wie viele andere mit Neujahrsvorsätzen ist eines meiner Ziele für dieses Jahr, an meiner persönlichen technischen Entwicklung zu arbeiten, indem ich jeden Tag programmiere.
+Wie viele andere habe ich auch gute Neujahrsvorsätze und mir vorgenommen, 2023 gezielt an meiner technischen Weiterentwicklung zu arbeiten – indem ich jeden Tag programmiere.
 
-#### Neues Jahr, bessere Programmierung
+#### Neues Jahr, saubererer Code
 
-Zusätzlich zum täglichen Programmieren sind dies einige meiner weiteren Ziele für das Jahr:
+Neben dem täglichen Programmieren habe ich mir noch ein paar weitere Ziele für dieses Jahr gesetzt:
 
 1. Eine persönliche Blog-Seite erstellen  
 2. Eine verbesserte Version meiner Lebenslauf-Website entwickeln, inklusive Hell- und Dunkelmodus  
-3. Die Zertifizierungen „Azure Data Fundamentals“ und „Azure AI Fundamentals“ erwerben  
+3. Die Zertifikate "Azure Data Fundamentals" und "Azure AI Fundamentals" erwerben  
 
 #### Jekyll und GitHub Pages
 
-Für Ziel Nr. 1 – was wäre eine bessere Möglichkeit, sowohl eine neue Fähigkeit zu erlernen als auch einen persönlichen Blog zu erstellen, als die Nutzung der Jekyll-Bibliothek zu lernen?
+Für Ziel Nr. 1: Was wäre besser geeignet, um gleichzeitig eine neue Fähigkeit zu lernen und einen persönlichen Blog zu erstellen, als sich mit der Jekyll-Bibliothek vertraut zu machen?
 
-Um den Prozess der Erstellung eines statischen Blogs mit Jekyll und GitHub Pages schnell zu starten, habe ich dieses Repository [Jekyll Now Repository](https://github.com/barryclark/jekyll-now) geforkt und Barry Clarks Tutorial [hier](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/) befolgt.
+Um schnell in die Erstellung eines statischen Blogs mit Jekyll und GitHub Pages einzusteigen, habe ich das [Jekyll Now Repository](https://github.com/barryclark/jekyll-now) geforkt und dem Tutorial von Barry Clark [hier](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/) gefolgt.
