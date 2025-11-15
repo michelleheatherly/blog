@@ -1,6 +1,6 @@
 var store = [{
         "title": "Frohes Neues Jahr!",
-        "excerpt":"Ich wünsche allen, die das hier lesen, dass euch das Jahr 2023 freundlich behandelt und euer Code reibungslos läuft. Wie viele andere mit Neujahrsvorsätzen ist eines meiner Ziele für dieses Jahr, an meiner persönlichen technischen Entwicklung zu arbeiten, indem ich jeden Tag programmiere. Neues Jahr, bessere Programmierung Zusätzlich zum täglichen...","categories": ["Programmierung"],
+        "excerpt":"Ich wünsche allen, die das hier lesen, dass euch das Jahr 2023 wohlgesinnt ist und euer Code ohne Probleme läuft. Wie viele andere habe ich auch gute Neujahrsvorsätze und mir vorgenommen, 2023 gezielt an meiner technischen Weiterentwicklung zu arbeiten – indem ich jeden Tag programmiere. Neues Jahr, saubererer Code Neben...","categories": ["Programmierung"],
         "tags": ["Ziele","Neues Jahr"],
         "url": "/blog/programmierung/Frohes-Neues-Jahr/",
         "teaser": "/blog/assets/images/placeholder-pic.jpg"
@@ -12,7 +12,7 @@ var store = [{
         "teaser": "/blog/assets/images/placeholder-pic.jpg"
       },{
         "title": "Rückblick auf die Neujahrsziele",
-        "excerpt":"Es sind ein paar Monate vergangen, seit ich hier ein Update zu den beruflichen und programmierbezogenen Zielen gegeben habe, die ich mir für das neue Jahr gesetzt hatte. Mein übergeordnetes Ziel für das Jahr war es, jeden Tag zu programmieren. Das ist ein ziemlich großes Ziel – und das Leben...","categories": ["Programmierung"],
+        "excerpt":"Es ist einige Monate her, seit ich hier ein Update zu den beruflichen und programmierbezogenen Zielen gegeben habe, die ich mir für das neue Jahr gesetzt hatte. Mein übergeordnetes Ziel war es, jeden Tag zu programmieren. Das ist natürlich sehr ambitioniert – und manchmal kommt das Leben dazwischen und unterbricht...","categories": ["Programmierung"],
         "tags": ["Ziele","Neues Jahr"],
         "url": "/blog/programmierung/R%C3%BCckblick-Auf-Die-Neujahrsziele/",
         "teaser": "/blog/assets/images/placeholder-pic.jpg"
