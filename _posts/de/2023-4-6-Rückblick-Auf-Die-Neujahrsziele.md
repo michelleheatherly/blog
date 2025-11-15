@@ -12,31 +12,31 @@ tags:
   - Neues Jahr
 ---
 
-Es sind ein paar Monate vergangen, seit ich hier ein Update zu den beruflichen und programmierbezogenen Zielen gegeben habe, die ich mir für das neue Jahr gesetzt hatte.
+Es ist einige Monate her, seit ich hier ein Update zu den beruflichen und programmierbezogenen Zielen gegeben habe, die ich mir für das neue Jahr gesetzt hatte.
 
-Mein übergeordnetes Ziel für das Jahr war es, *jeden* Tag zu programmieren. Das ist ein ziemlich großes Ziel – und das Leben kann manchmal schnell dazwischenkommen und perfekte Serien unterbrechen. Auch wenn ich dieses Ziel vielleicht nicht vollständig erreicht habe, programmiere ich an den meisten Tagen. Oft ist es besser, auf Fortschritt und Wachstum hinzuarbeiten, statt auf *Perfektion*.
+Mein übergeordnetes Ziel war es, *jeden* Tag zu programmieren. Das ist natürlich sehr ambitioniert – und manchmal kommt das Leben dazwischen und unterbricht perfekte Serien. Auch wenn ich dieses Ziel vielleicht nicht vollständig erreicht habe, programmiere ich an den meisten Tagen. Oft ist es sinnvoller, auf Fortschritt und persönliches Wachstum hinzuarbeiten als auf *Perfektion*.
 
 #### Neujahrsziele
 
-Zur kurzen Erinnerung – das waren die drei weiteren Ziele, die ich mir gesetzt hatte:
+Zur Erinnerung – das waren meine drei weiteren Ziele für dieses Jahr:
 
 1. Eine persönliche Blog-Seite erstellen  
-2. Eine verbesserte Version meiner Lebenslauf-Webseite entwickeln, inklusive Hell- und Dunkelmodus  
-3. Die Zertifizierungen „Azure Data Fundamentals“ und „Azure AI Fundamentals“ erwerben  
+2. Eine überarbeitete Version meiner Lebenslauf-Website entwickeln, inklusive Hell- und Dunkelmodus
+3. Die Zertifizierungen "Azure Data Fundamentals" und "Azure AI Fundamentals" erwerben
 
 #### Eine persönliche Blog-Seite erstellen
 
-Wenn du diesen Beitrag liest, habe ich eine persönliche Blog-Seite erstellt!
+Wenn du diesen Beitrag liest, dann habe ich dieses Ziel bereits erreicht!
 
-Es gibt unendlich viele Möglichkeiten, wenn man einen persönlichen Blog aufbaut – angefangen bei Programmiersprachen, über Hosting-Plattformen bis hin zu zusätzlichen Tools. Schon früh im Entwicklungsprozess habe ich entschieden, dass ich meinen Blog mit einem Static Site Generator erstellen und über GitHub Pages hosten möchte.
+Es gibt unzählige Möglichkeiten, einen persönlichen Blog zu erstellen – von der Wahl der Programmiersprache über die Hosting-Plattform bis hin zu zusätzlichen Tools. Relativ früh im Prozess habe ich mich entschieden, meinen Blog mit einem Generator für statische Webseiten zu erstellen und über GitHub Pages zu hosten.
 
-Man könnte sich fragen, warum ich mich für einen Static-Site-Generator entschieden habe. Ich habe nichts gegen dynamische Webseiten, aber mir gefällt, wie schnell statische Seiten laden und wie wenig laufende Wartung sie benötigen. Meine [persönliche Webseite](https://michelle-heatherly.com) hoste ich bereits über GitHub Pages. Mit der einfachen und kostenlosen Hosting-Option für statische Webseiten war die Wahl des Hostings schnell getroffen.
+Warum ein Generator für statische Webseiten? Ich habe nichts gegen dynamische Websites, aber ich schätze, wie schnell statische Seiten laden und wie wenig Wartung sie erfordern. Meine [persönliche Website](https://michelle-heatherly.com) hoste ich ebenfalls über GitHub Pages – dank der unkomplizierten, kostenlosen Hosting-Möglichkeit war die Entscheidung naheliegend.
 
-Manchmal ist es einfach schön, die Dinge *einfach* zu halten.
+Manchmal ist es einfach gut, die Dinge *einfach* zu halten.
 
-Ich habe einige verschiedene Bibliotheken ausprobiert, um mir den Einstieg in die Erstellung einer statischen Blog-Seite auf GitHub Pages zu erleichtern.
+Ich habe verschiedene Bibliotheken ausprobiert, um den Einstieg in die Erstellung eines statischen Blogs auf GitHub Pages zu erleichtern.
 
-Die folgenden Bibliotheken beschreibe ich im Detail weiter unten:
+Die folgenden Tools habe ich im Laufe der Entwicklung getestet:
 
 1. [Jekyll](https://jekyllrb.com/)  
 2. [Jekyll Now](https://github.com/barryclark/jekyll-now)  
@@ -44,99 +44,101 @@ Die folgenden Bibliotheken beschreibe ich im Detail weiter unten:
 
 ##### Jekyll
 
-Jekyll ist ein Open-Source-Tool, das auf der Programmiersprache Ruby basiert und mit HTML- und Markdown-Dateien arbeitet. Es eignet sich hervorragend zur Erstellung statischer Webseiten, was bedeutet, dass die Dateien als vorgerenderte HTML-Dateien ohne dynamisch generierte Inhalte oder zusätzliche Back-End-Dienste & Datenbanken bereitgestellt werden.  
-Einige Vorteile von Jekyll sind die vollständige (und **kostenlose**) Integration mit GitHub Pages, sowie die Tatsache, dass Jekyll-Webseiten oft schneller, sicherer und leichter zu warten sind als Content-Management-Systeme (CMS).
+Jekyll ist ein Open-Source-Tool auf Basis der Programmiersprache Ruby, das mit HTML- und Markdown-Dateien arbeitet. Es eignet sich hervorragend zum Erstellen statischer Websites – also Seiten, die als vorgerenderte HTML-Dateien ohne dynamische Inhalte oder Backend-Systeme ausgeliefert werden.
+Einige Vorteile von Jekyll: Es lässt sich vollständig und **kostenlose** mit GitHub Pages integrieren, und Jekyll-Seiten laden schnell, sind sicher und erfordern kaum Wartung – im Gegensatz zu klassischen Content-Management-Systemen (CMS).
 
 ##### Jekyll Now
 
-[Jekyll Now](https://www.jekyllnow.com/), entwickelt von Barry Clark, ermöglicht es Entwicklern, ihre Jekyll-Webseite in wenigen Minuten zum Laufen zu bringen, ohne Ruby und andere Abhängigkeiten installieren zu müssen.
+[Jekyll Now](https://www.jekyllnow.com/) wurde von Barry Clark entwickelt und ermöglicht es, eine Jekyll-Seite in wenigen Minuten online zu bringen – ohne Ruby oder andere Abhängigkeiten installieren zu müssen.
 
-Wie der Name schon andeutet, kann man damit sehr schnell eine neue statische Blog-Seite erstellen. Das mitgelieferte Design ist minimalistisch, schlicht und schön, sodass man seine Energie auf das Schreiben von Blogbeiträgen und Inhalten konzentrieren kann.
+Wie der Name schon andeutet, kann man damit sofort loslegen. Das mitgelieferte Design ist minimalistisch, aufgeräumt und schön – ideal, um sich ganz auf das Schreiben der Inhalte zu konzentrieren.
 
-Mein Testlauf mit einem Fork des Jekyll-Now-Repositories ist [hier](https://michelle-heatherly.com/jekyll-now/) zu finden.
+Meinen Testlauf mit einem Fork des Jekyll-Now-Repositories findest du [hier](https://michelle-heatherly.com/jekyll-now/).
 
 ##### Minimal Mistakes
 
-Nachdem ich mit Jekyll Now experimentiert hatte – und obwohl mir die Einfachheit gefiel – wollte ich eine Bibliothek verwenden, die mehr Funktionen direkt integriert. Nach einiger Recherche stieß ich auf [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/), ein flexibles, responsives und anpassbares Jekyll-Theme, das von Michael Rose entwickelt wurde.
+Nach dem Experimentieren mit Jekyll Now – das mir durch seine Einfachheit gut gefallen hat – wollte ich ein Tool mit mehr integrierten Funktionen. Nach einiger Recherche stieß ich auf [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/), ein flexibles, responsives und anpassbares Jekyll-Thema von Michael Rose.
 
-Im Gegensatz zu Jekyll Now erfordert dieses Theme, dass Ruby installiert und konfiguriert ist, sowie die Nutzung von Ruby Gems für Installation und Bundling des Themes.
+Im Gegensatz zu Jekyll Now erfordert Minimal Mistakes die Installation und Konfiguration von Ruby sowie die Nutzung von Ruby Gems für Installation und Bundling.
 
-Ruby war auf meinem Computer bereits von früheren Projekten installiert. Wer es noch nicht hat, findet auf der [Ruby-Webseite](https://www.ruby-lang.org/en/documentation/installation/) mehrere Möglichkeiten zur Installation auf verschiedenen Betriebssystemen. Die Dokumentation zum Einstieg und zur Konfiguration von Minimal Mistakes ist ebenfalls sehr umfangreich.
+Ruby war auf meinem Rechner bereits durch frühere Projekte installiert. Wer es noch nicht hat, findet auf der [offiziellen Ruby-Website](https://www.ruby-lang.org/en/documentation/installation/) gute Anleitungen für verschiedene Betriebssysteme. Auch die Dokumentation von Minimal Mistakes ist sehr umfangreich.
 
-Ich liebe, wie anpassbar und erweiterbar dieses Theme ist und wie es gleichzeitig hilft, den Erstellungsprozess zu beschleunigen. Für [diesen](https://michelle-heatherly.com/blog/) Blog, den du gerade liest, habe ich Minimal Mistakes verwendet.
+Ich liebe, wie anpassbar und funktional dieses Thema ist – und gleichzeitig den Entwicklungsprozess beschleunigt. Für [diesen Blog](https://michelle-heatherly.com/blog/de), den du gerade liest, verwende ich Minimal Mistakes.
 
-Wie viele persönliche Programmierprojekte ist auch dieser Blog noch eine laufende Arbeit. Wahrscheinlich werde ich weiterhin andere Tools erkunden, um meine Blog-Webseiten weiterzuentwickeln. Einige der Tools, die mich künftig interessieren, sind [Hugo](https://gohugo.io/) und [11ty](https://www.11ty.dev/).
+Wie viele persönliche Programmierprojekte ist auch dieser Blog ein "Work in Progress". Wahrscheinlich werde ich künftig weitere Tools ausprobieren, um meine Blogseiten weiterzuentwickeln. Einige, die mich aktuell interessieren, sind [Hugo](https://gohugo.io/) und [11ty](https://www.11ty.dev/).
 
-#### Persönliche Webseite mit Hell- und Dunkelmodus verbessern
+#### Persönliche Website: Hell- und Dunkelmodus
 
-In den letzten Monaten habe ich viele Updates an meiner persönlichen Webseite vorgenommen.
+In den letzten Monaten habe ich viele Verbesserungen an meiner persönlichen Website vorgenommen.
 
-Einige der Änderungen sind:
+Einige Beispiele:
 
-1. Farbverlauf-Text für die Navigationsleiste, Überschriften und andere Stellen zur zusätzlichen Betonung.  
-2. Einige Bilder wurden durch aktuellere Screenshots ersetzt oder solche, die besser zum Gesamtdesign der Webseite passen.  
-3. Das Video wurde durch einen Farbverlaufs-Hintergrund mit dynamischer, animierter Textdarstellung des Grace-Hopper-Zitats ersetzt.  
-4. Den Karten im Portfolio-Bereich wurden Badges hinzugefügt, die anzeigen, welche Sprachen und Tools bei der Entwicklung verwendet wurden.  
+1. Farbverlauf-Text in der Navigationsleiste, bei Überschriften und an anderen Stellen zur stärkeren Hervorhebung
+2. Aktualisierte Screenshots, die besser zum Gesamtdesign passen 
+3. Ein neues Hintergrundvideo mit Farbverlauf und animierter Textanzeige des Grace-Hopper-Zitats 
+4. Neue Badges in den Projektkarten des Portfolios, die verwendete Sprachen und Tools anzeigen
 
-Allerdings habe ich bisher keinen Hell- und Dunkelmodus zu meiner persönlichen Webseite hinzugefügt.
+Allerdings habe ich bisher noch keinen Hell-/Dunkelmodus eingebaut.
 
-Es gibt ein bekanntes Sprichwort im kreativen Schreiben (ich glaube, es wird William Faulkner zugeschrieben), das besagt, man solle seine „*Lieblinge töten*“. Das heißt, man sollte sich nicht zu sehr an etwas klammern. Manchmal ist es besser, liebgewonnene kreative Werke zu überarbeiten oder loszulassen.
+Es gibt ein bekanntes Zitat aus dem kreativen Schreiben – oft William Faulkner zugeschrieben – das besagt: "Kill your darlings." Gemeint ist, dass man sich nicht zu sehr an einzelne Ideen oder Designs klammern sollte. Manchmal ist es besser, sich von etwas zu lösen oder es zu überarbeiten.
 
-Ich genieße das dunkle, cyber/galaxy-inspirierte Design meiner Webseite derzeit sehr. Ich stimme aber zu, dass es sinnvoll sein könnte, irgendwann eine Webseite zu erstellen, die über eine Hell-/Dunkelmodus-Umschaltung verfügt, um meine Fähigkeiten als Softwareentwicklerin klarer und professioneller zu präsentieren. Ich bin mir nur noch nicht sicher, wie ein neues Design aussehen soll.
+Ich liebe das dunkle, vom Weltall inspirierte Design meiner aktuellen Website – trotzdem sehe ich den Nutzen eines Umschalters für Hell- und Dunkelmodus. Eine solche Funktion würde meine Fähigkeiten als Entwicklerin noch professioneller präsentieren. Ich bin mir nur noch nicht sicher, wie ein neues Design konkret aussehen soll.
 
-Ich experimentiere bereits mit einigen neuen Layouts und Technologien, mit denen die Webseite entwickelt wird. Vermutlich wird im Laufe des Jahres ein neues Design entstehen, das meinen Vorstellungen entspricht. Bleibt dran!
+Aktuell experimentiere ich mit neuen Layouts und Technologien. Ich gehe davon aus, dass im Laufe des Jahres eine neue Version meiner Website entsteht. Bleib also gespannt!
 
-Allerdings habe ich für andere Projekte Hell-/Dunkelmodi entwickelt.
+Für andere Projekte habe ich bereits Hell-/Dunkelmodi umgesetzt.
 
 Zum Beispiel:
 
-Ich habe dieser [Jekyll-Blog-Seite](https://michelle-heatherly.com/blog/) einen Umschalter für Hell-/Dunkelmodus hinzugefügt. Du kannst zwischen den Modi wechseln, indem du auf das Sonne-/Mond-Symbol in der Navigationsleiste klickst. Das Standard-Theme ist dunkel (bzw. das „neon skin“ von Minimal Mistakes), da es zum *ästhetischen* Stil meiner [Webseite](https://michelle-heatherly.com) passt.
+Auf meiner [Jekyll-Blog-Seite](https://michelle-heatherly.com/blog/de) gibt es eine Umschaltfunktion – klick einfach auf das Sonnen-/Mondsymbol in der Navigationsleiste. Standardmäßig ist der dunkle Modus aktiv (das sogenannte "Neon Skin" von Minimal Mistakes), weil es zum Design meiner [Website](https://michelle-heatherly.com) passt.
 
-Außerdem habe ich ein kleines Beispielprojekt mit Angular, TypeScript und Angular Material erstellt, bei dem man ebenfalls zwischen Hell- und Dunkelmodus wechseln kann. Eine Vorschau findest du [hier](https://michelle-heatherly.com/angular-material-color-toggle/).  
-Der Code für alle diese Projekte ist auf meiner [GitHub](https://github.com/michelleheatherly)-Seite einsehbar.
+Ich habe auch ein kleines Beispielprojekt mit Angular, TypeScript und Angular Material erstellt, in dem man zwischen den Modi wechseln kann. Die Vorschau findest du [hier](https://michelle-heatherly.com/angular-material-color-toggle/).  
+Den Code zu all diesen Projekten findest du auf meiner [GitHub-Seite](https://github.com/michelleheatherly).
 
-Erwähnenswert ist auch, dass die aktuelle (Alpha-)Version von [Bootstrap 5](https://getbootstrap.com/docs/5.3/customize/color-modes/#dark-mode) eine integrierte Funktion für Hell-/Dunkelmodus bietet. Man muss zwar weiterhin einen Button hinzufügen und etwas zusätzlichen Code schreiben, um zwischen den Themes zu wechseln, aber es ist eine großartige Option, wenn man Bootstrap ohnehin bereits verwendet.
+Übrigens: Die aktuelle Alpha-Version von [Bootstrap 5](https://getbootstrap.com/docs/5.3/customize/color-modes/#dark-mode) bietet eine integrierte Hell-/Dunkelmodus-Funktion. Man muss zwar weiterhin einen Button einbauen und etwas Logik ergänzen, aber es ist eine großartige Option für alle, die bereits mit Bootstrap arbeiten.
 
-#### Azure Data Fundamentals und Azure AI Fundamentals Zertifizierungen erwerben
+#### Azure Data Fundamentals & Azure AI Fundamentals
 
-Seit Ende Februar 2023 besitze ich drei Azure-Zertifizierungen: Azure Fundamentals, Azure Data Fundamentals und Azure AI Fundamentals.
+Seit Ende Februar 2023 habe ich drei Azure-Zertifizierungen abgeschlossen: Azure Fundamentals, Azure Data Fundamentals und Azure AI Fundamentals.
 
-Wer sich für Azure-Zertifizierungen interessiert, kann regelmäßig an [virtuellen Trainingstagen](https://www.microsoft.com/en-us/trainingdays) von Microsoft teilnehmen. Einige dieser Trainings, darunter Azure Fundamentals, Data Fundamentals und AI Fundamentals, beinhalten sogar kostenlose Prüfungsgutscheine. Diese Grundlagenzertifizierungen sind ideal für alle, die neu im Cloud-Computing oder in Azure sind und ihr Wissen erweitern und validieren möchten.
+Wenn du dich für Azure-Zertifizierungen interessierst, empfehle ich dir die regelmäßigen [virtuellen Trainingstage von Microsoft](https://www.microsoft.com/en-us/trainingdays). Einige davon – darunter Azure Fundamentals, Data Fundamentals und AI Fundamentals – beinhalten sogar kostenlose Prüfungsgutscheine.
 
-Auch wenn du bereits Erfahrung mit Azure oder anderen Cloud-Plattformen wie AWS oder GCP hast, sind diese Trainings eine gute Möglichkeit, neue Dienste und Features kennenzulernen. Ich kann nur empfehlen, das **kostenlose** Training und die Gutscheine zu nutzen, wenn du mehr über Azure und seine Möglichkeiten erfahren möchtest.  
-Zur Prüfungsvorbereitung habe ich außerdem [Microsoft Learn for Azure](https://learn.microsoft.com/en-us/training/azure/) verwendet – eine **kostenlose** Lernplattform mit hervorragenden Lernmaterialien, Übungen und kurzen Tests, um dein Wissen zu prüfen oder neue Fähigkeiten zu erlernen.
+Gerade für Einsteiger ins Cloud-Computing oder in Azure bieten diese Grundlagenzertifikate einen idealen Einstieg, um Wissen aufzubauen und zu validieren.
 
-Da man aktuell kaum an OpenAI und ChatGPT vorbeikommt, hat mich das Lernen für die Azure-AI-Fundamentals-Prüfung sehr inspiriert, tiefer in die Themen Künstliche Intelligenz und Maschinelles Lernen einzutauchen. Die Prüfung behandelt Themen wie die KI-/ML-Dienste auf Azure, Natural Language Processing, Computer Vision und auch ethische Fragen und Verantwortlichkeiten im Umgang mit KI/ML.
+Auch wenn du bereits Erfahrung mit Azure, AWS oder GCP hast, kannst du durch diese Trainings neue Dienste und Features kennenlernen. Ich kann das **kostenlose** Lernangebot nur empfehlen.
+Zur Vorbereitung habe ich zusätzlich [Microsoft Learn for Azure](https://learn.microsoft.com/en-us/training/azure/) genutzt – eine **kostenlose** Plattform mit großartigem Lernmaterial, Übungen und Quizfragen.
 
-Da viele Unternehmen zunehmend KI-Technologien integrieren oder eigene Lösungen entwickeln, steigt die Nachfrage nach Wissen und Fachkenntnissen in diesem Bereich. Auch wenn diese Zertifizierung nur eine grundlegende ist, empfand ich das Lernmaterial als großartige Einführung in die Nutzung von Azure-Diensten für KI/ML.
+Besonders spannend fand ich die Vorbereitung auf die Azure AI Fundamentals-Prüfung, da das Thema Künstliche Intelligenz derzeit allgegenwärtig ist. Die Inhalte reichen von KI-/ML-Diensten in Azure über die Verarbeitung natürlicher Sprache und maschinelles Sehen bis hin zu ethischen Aspekten im Umgang mit KI.
 
-Zwei interessante KI-Tools, die ich kürzlich entdeckt habe, sind:
+Angesichts der steigenden Bedeutung von KI in der Industrie wird auch das entsprechende Fachwissen immer gefragter. Obwohl es sich nur um eine Grundlagenprüfung handelt, bietet sie einen ausgezeichneten Einstieg in Azure-basierte KI/ML-Anwendungen.
+
+Zwei interessante KI-Tools, die ich kürzlich ausprobiert habe:
 
 1. [sudowrite](https://www.sudowrite.com/)  
 2. [Writesonic](https://writesonic.com/)  
 
 ##### sudowrite
 
-Sudowrite ist eine Anwendung, die KI/ML nutzt, um Autoren kreativ zu unterstützen. Einige der Funktionen sind Vorschläge für alternative Wörter oder Sätze, Charakterentwicklung, Brainstorming, das Generieren von Gedichten und vieles mehr. Besonders spannend finde ich den „Canvas Mode“.
+Sudowrite unterstützt Autor*innen mit Hilfe von KI/ML – etwa beim Brainstorming, Umschreiben, Entwickeln von Figuren oder sogar beim Dichten. Besonders interessant finde ich den "Canvas Mode".
 
 ##### Writesonic
 
-Writesonic ist eine weitere KI-gestützte Schreibanwendung, die beim Erstellen von Texten hilft – sei es für Blogbeiträge, Beschreibungen, das Umformulieren von Absätzen, Ideengenerierung, Keywords und vieles mehr. Außerdem gibt es eine neue Funktion namens *Photosonic*, mit der man Kunst generieren kann.
+Writesonic ist ein weiteres KI-gestütztes Schreibtool, das beim Verfassen und Optimieren von Texten hilft – z. B. für Blogs, Produktbeschreibungen, Suchbegriffe und vieles mehr. Eine neue Funktion namens *Photosonic* ermöglicht zudem das Generieren von KI-Kunst.
 
-Beide Tools bieten eine **kostenlose** Testversion an. Probiert sie ruhig aus! Wie bei vielen anderen KI-/ML-Tools variieren die Ergebnisse stark. Es braucht oft etwas Feingefühl und Experimentieren mit den Parametern, um die besten Resultate zu erzielen.
+Beide Tools bieten **kostenlose** Testversionen – probier sie ruhig mal aus! Wie bei vielen KI-Werkzeugen ist etwas Ausprobieren nötig, um wirklich gute Ergebnisse zu erzielen.
 
 #### Nächste Schritte
 
-Wie viele andere Entwickler habe auch ich eine fortlaufende Liste mit Projekten und Ideen.
+Wie viele Entwickler*innen habe auch ich eine stetig wachsende Liste an Ideen und Projekten.
 
-Kurzfristig möchte ich mich auf diese drei Dinge konzentrieren:
+Kurzfristig möchte ich mich auf diese drei Vorhaben konzentrieren:
 
-1. Eine Linktree-inspirierte Webseite erstellen  
-2. Eine Blog-Webseite für meine Yoga-Angebote aufbauen  
-3. Eine Full-Stack-CRUD-Anwendung entwickeln  
+1. Eine Linktree-inspirierte Website erstellen
+2. Eine Blog-Seite für mein Yoga-Angebot aufbauen
+3. Eine Full-Stack-CRUD-Anwendung entwickeln
 
-Danke fürs Lesen! Ich hoffe, dass diese Gedanken und Ressourcen dich bei deinen eigenen Programmierprojekten inspirieren.
+Danke fürs Lesen! Ich hoffe, dass dir diese Einblicke und Tools neue Impulse für deine eigenen Programmierprojekte geben.
 
-Ich werde weiterhin an mir selbst arbeiten und bald ein weiteres Update zu meinem Fortschritt bei diesen drei Zielen geben.
+Ich werde weiter an meinen Zielen arbeiten – ein weiteres Update folgt bald.
 
-Ich hoffe, deine eigenen Ziele laufen gut!
+Ich hoffe, deine eigenen Projekte laufen ebenfalls gut!

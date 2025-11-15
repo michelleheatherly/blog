@@ -18,7 +18,7 @@ de:
   main:
     - title: "Start"
       url: /
-    - title: "Über"
+    - title: "Profil"
       url: /about/
     - title: "Beiträge"
       url: /posts/
@@ -26,6 +26,6 @@ de:
       url: /categories/
     - title: "Tags"
       url: /tags/
-    - title: Webseite
+    - title: Website
       url: https://michelle-heatherly.com
       external: true
