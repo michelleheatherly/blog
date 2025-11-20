@@ -16,3 +16,5 @@ When I am away from my computer, I can be found cuddled up with my two tabby cat
 ### Contact Me
 
 If you are interested in working with me, you can contact me via [email](mailto:michelleheatherly218@outlook.com) or [LinkedIn](https://www.linkedin.com/in/rachael-michelle-heatherly/).
+
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/celestial-kitty.png)

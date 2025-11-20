@@ -9,7 +9,7 @@ url: "https://michelleheatherly.github.io"
 baseurl: "/blog"
 repository: "michelleheatherly/blog"
 teaser: "/assets/images/placeholder-pic.jpg"
-logo: "/assets/images/transparent-cat.png"
+logo: "/assets/images/cat.png"
 masthead_title: " "
 breadcrumbs: true
 words_per_minute: 200
