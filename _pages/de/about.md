@@ -16,3 +16,5 @@ Wenn ich nicht gerade am Computer sitze, verbringe ich Zeit mit meinen zwei geti
 ### Kontakt
 
 Möchtest du mit mir zusammenarbeiten? Dann schreib mir gern eine [E-Mail](mailto:michelleheatherly218@outlook.com) oder melde dich bei mir auf [LinkedIn](https://www.linkedin.com/in/rachael-michelle-heatherly/).
+
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/celestial-kitty.png)
