@@ -7,7 +7,7 @@ locale: de
 
 Hallo! Ich bin Michelle Heatherly.
 
-Seit über neun Jahren arbeite ich als Full-Stack-Softwareentwicklerin – ich entwickle Anwendungen, schreibe Skripte und betreue sowohl moderne als auch ältere Systeme, einschließlich Cloud-Umgebungen. Es bereitet mir große Freude, digitale Lösungen für andere zu schaffen – seien es Anwendungen, Websites oder andere Projekte.
+Seit über zehn Jahren arbeite ich als Full-Stack-Softwareentwicklerin – ich entwickle Anwendungen, schreibe Skripte und betreue sowohl moderne als auch ältere Systeme, einschließlich Cloud-Umgebungen. Es bereitet mir große Freude, digitale Lösungen für andere zu schaffen – seien es Anwendungen, Websites oder andere Projekte.
 
 Meinen Bachelor habe ich am Wofford College gemacht, mit den Hauptfächern Informatik und Germanistik sowie einem Nebenfach in Mathematik. Zusätzlich bin ich CompTIA Security+ zertifiziert und besitze mehrere Azure-Zertifizierungen.
 
